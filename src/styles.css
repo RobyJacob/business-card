@@ -1,0 +1,158 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #1A1B21;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #1A1B21;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 247px;
+    margin-top: 33px;
+    margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content--about {
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.content--para {
+    color: #DCDCDC;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15px;
+}
+
+.content--interests {
+    color: #F5F5F5;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.emailbtn {
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    color: #374151;
+    line-height: 16px;
+    font-style: normal;
+}
+
+.emailbtn--wrapper {
+    margin-right: 8px;
+}
+
+.linkedinbtn {
+    padding: 9px 13px 9px 11px;
+    border: none;
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    background: #5093E2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.linkedinbtn--wrapper {
+    margin-right: 8px;
+}
+
+.info--name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 3px;
+}
+
+.info--designation {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+.info--website {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.info--img {
+    height: 317px;
+    width: 317px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 317px;
+    padding-bottom: 20px;
+    padding-top: 19px;
+}
+
+.footer--twitter {
+    margin-right: 20px;
+}
+
+.footer--facebook {
+    margin-right: 20px;
+}
+
+.footer--insta {
+    margin-right: 20px;
+}
+
